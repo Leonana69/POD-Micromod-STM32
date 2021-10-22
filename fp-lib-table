@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MicroMod_STM32)(type KiCad)(uri ${KIPRJMOD}/MicroMod_STM32.pretty)(options "")(descr ""))
+)

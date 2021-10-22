@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MicroMod_STM32)(type Legacy)(uri ${KIPRJMOD}/MicroMod_STM32.lib)(options "")(descr ""))
+  (lib (name CSTNE8M00GH5L000R0)(type Legacy)(uri ${KIPRJMOD}/MicroMod_STM32_Lib/CSTNE8M00GH5L000R0.lib)(options "")(descr ""))
+)

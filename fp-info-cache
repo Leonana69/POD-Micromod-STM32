@@ -1,0 +1,117 @@
+21254077975039
+MicroMod_STM32
+0402-TIGHT
+
+
+0
+2
+2
+MicroMod_STM32
+CREATIVE_COMMONS
+<h3>Creative Commons License Template</h3>
+<p>CC BY-SA 4.0 License with <a href="https://creativecommons.org/licenses/by-sa/4.0/">link to license</a> and placeholder for designer name.</p>
+<p>Devices using:
+<ul><li>FRAME_LEDGER</li>
+<li>FRAME_LETTER</li></ul></p>
+
+0
+0
+0
+MicroMod_STM32
+FIDUCIAL-MICRO
+<h3>Fiducial - Circle, 0.25in</h3>
+<p>Point-of-reference for pick-and-place machines and other optical instruments.</p>
+<p>Devices using:
+<ul><li>FIDUCIAL</li></ul></p>
+
+0
+1
+1
+MicroMod_STM32
+LED-0603
+<B>LED 0603 SMT</B><p>
+0603, surface mount.
+<p>Specifications:
+<ul><li>Pin count: 2</li>
+<li>Pin pitch:0.075inch </li>
+<li>Area: 0.06" x 0.03"</li>
+</ul></p>
+<p>Example device(s):
+<ul><li>LED - BLUE</li>
+
+0
+2
+2
+MicroMod_STM32
+M.2-CARD-E-22
+
+
+0
+70
+70
+MicroMod_STM32
+MICROMOD_LOGO_.3
+
+
+0
+0
+0
+MicroMod_STM32
+MICROMOD_MI_LOGO_.35
+
+
+0
+0
+0
+MicroMod_STM32
+OSC_CSTNE8M00GH5L000R0
+
+
+0
+3
+3
+MicroMod_STM32
+PRODUCTION_INSTRUCTIONS
+<h3>Special Production Instructions Alert</h3>
+<p>Placeholder for notes on unique production processes, which may include special wash or depaneling instructions.</p>
+
+0
+0
+0
+MicroMod_STM32
+SOT23-3
+<h3>SOT23-3X</h3>
+
+<ul>
+<li>Total Size: 3mm x 2.5mm</li>
+<li>Landing Pad Size: .8mm x .9mm</li>
+<li>Pitch: 2 (vertical) .95mm (horizontal)</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+0
+3
+3
+MicroMod_STM32
+STM32F4050
+
+
+0
+0
+0
+MicroMod_STM32
+TE_2199230-4
+
+
+0
+69
+69
+MicroMod_STM32
+TQFP64
+64-Lead TQFP Plastic Thin Quad Flatpack - 10x10x1mm Body, 2mmFP
+
+0
+64
+64
