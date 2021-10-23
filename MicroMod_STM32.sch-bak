@@ -231,7 +231,7 @@ IMU_SDA
 Text Label 2775 4475 2    50   ~ 0
 E_TX1
 Text Label 2775 4575 2    50   ~ 0
-E_TX2
+E_RX1
 Text Label 2775 4675 2    50   ~ 0
 C12
 Text Label 2775 4275 2    50   ~ 0
@@ -656,6 +656,143 @@ F 3 "" H 7475 5075 50  0001 C CNN
 $EndComp
 Text Label 7475 4975 0    50   ~ 0
 MOTOR4
-Text Label 7475 4875 0    50   ~ 0
+Text Label 6475 4775 2    50   ~ 0
 NRST
+Text Label 7475 4875 0    50   ~ 0
+BOOT0
+Text Label 7475 2975 0    50   ~ 0
+B4
+Text Label 7475 3075 0    50   ~ 0
+E_SPI_MOSI
+Text Label 7475 3175 0    50   ~ 0
+E_SPI_MISO
+Text Label 7475 3275 0    50   ~ 0
+E_SPI_CLK
+Text Label 7475 3375 0    50   ~ 0
+E_SCL
+Text Label 7475 3475 0    50   ~ 0
+E_SDA
+Text Label 6475 4975 2    50   ~ 0
+MOTOR3
+Text Label 7475 2375 0    50   ~ 0
+MOTOR1
+Text Label 6475 2875 2    50   ~ 0
+B10
+Text Label 7475 3575 0    50   ~ 0
+E_TX1
+Text Label 7475 3675 0    50   ~ 0
+E_RX1
+Text Label 6475 3275 2    50   ~ 0
+B1
+Text Label 6475 3375 2    50   ~ 0
+B0
+Text Label 7475 3775 0    50   ~ 0
+E_RX2
+Text Label 7475 3875 0    50   ~ 0
+E_TX2
+Text Label 7475 2475 0    50   ~ 0
+NRF_CTRL
+Text Label 6475 4875 2    50   ~ 0
+STM_SWO
+Text Label 6475 4675 2    50   ~ 0
+STM_SWIO
+Text Label 6475 4475 2    50   ~ 0
+STM_SWCLK
+$Comp
+L power:GND #PWR0112
+U 1 1 61763998
+P 6475 4575
+F 0 "#PWR0112" H 6475 4325 50  0001 C CNN
+F 1 "GND" H 6480 4402 50  0000 C CNN
+F 2 "" H 6475 4575 50  0001 C CNN
+F 3 "" H 6475 4575 50  0001 C CNN
+	1    6475 4575
+	0    1    1    0   
+$EndComp
+Text Label 6475 3575 2    50   ~ 0
+C4
+Text Label 6475 3475 2    50   ~ 0
+C5
+Text Label 7475 4775 0    50   ~ 0
+RED_L
+Text Label 7475 4675 0    50   ~ 0
+GREEN_L
+Text Label 7475 2775 0    50   ~ 0
+RED_R
+Text Label 7475 2675 0    50   ~ 0
+GREEN_R
+Text Label 6475 3675 2    50   ~ 0
+A0
+Text Label 7475 4075 0    50   ~ 0
+C15
+Text Label 6475 3775 2    50   ~ 0
+C13
+Text Label 7475 3975 0    50   ~ 0
+C12
+Text Label 6475 3875 2    50   ~ 0
+B5
+Text Label 6475 3975 2    50   ~ 0
+B8
+$Comp
+L power:GND #PWR0113
+U 1 1 61789A89
+P 7475 2575
+F 0 "#PWR0113" H 7475 2325 50  0001 C CNN
+F 1 "GND" H 7480 2402 50  0000 C CNN
+F 2 "" H 7475 2575 50  0001 C CNN
+F 3 "" H 7475 2575 50  0001 C CNN
+	1    7475 2575
+	0    -1   -1   0   
+$EndComp
+Text Label 3075 9150 2    50   ~ 0
+B8
+Text Label 6475 4375 2    50   ~ 0
+VCC
+$Comp
+L MicroMod_STM32:SM06B-SRSS-TB CON1
+U 1 1 6184116E
+P 9075 4400
+F 0 "CON1" H 9405 4693 50  0000 L CNN
+F 1 "SM06B-SRSS-TB" H 9075 4400 50  0001 L BNN
+F 2 "SM06B" H 9075 4400 50  0001 L BNN
+F 3 "" H 9075 4400 50  0001 L BNN
+F 4 "455-1806-1-ND" H 9075 4400 50  0001 L BNN "DIGIKEY#"
+F 5 "SM06B-SRSS-TB(LF)(SN)" H 9075 4400 50  0001 L BNN "MANF#"
+F 6 "JST Sales America Inc" H 9075 4400 50  0001 L BNN "MANF"
+	1    9075 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6184376D
+P 9175 4500
+F 0 "#PWR?" H 9175 4250 50  0001 C CNN
+F 1 "GND" H 9180 4327 50  0000 C CNN
+F 2 "" H 9175 4500 50  0001 C CNN
+F 3 "" H 9175 4500 50  0001 C CNN
+	1    9175 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9275 4500 9175 4500
+Connection ~ 9175 4500
+Text Label 8975 4100 2    50   ~ 0
+STM_SWIO
+$Comp
+L power:GND #PWR?
+U 1 1 618473D8
+P 8975 4000
+F 0 "#PWR?" H 8975 3750 50  0001 C CNN
+F 1 "GND" H 8980 3827 50  0000 C CNN
+F 2 "" H 8975 4000 50  0001 C CNN
+F 3 "" H 8975 4000 50  0001 C CNN
+	1    8975 4000
+	0    1    1    0   
+$EndComp
+Text Label 8975 3900 2    50   ~ 0
+STM_SWCLK
+Text Label 8975 3800 2    50   ~ 0
+VCC
+Text Label 8975 4300 2    50   ~ 0
+STM_SWO
 $EndSCHEMATC
