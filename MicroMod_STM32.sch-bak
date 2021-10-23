@@ -19,7 +19,7 @@ U 1 1 61731371
 P 3475 3375
 F 0 "U1" H 3475 1486 50  0000 C CNN
 F 1 "STM32F405RGTx" H 3475 1395 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 2875 1675 50  0001 R CNN
+F 2 "MicroMod_STM32:TQFP64" H 2875 1675 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 3475 3375 50  0001 C CNN
 	1    3475 3375
 	1    0    0    -1  
@@ -143,28 +143,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 1350 2650 1275
 Connection ~ 2650 1275
-$Comp
-L Device:R R1
-U 1 1 61742E4E
-P 675 750
-F 0 "R1" H 745 796 50  0000 L CNN
-F 1 "10k" H 745 705 50  0000 L CNN
-F 2 "MicroMod_STM32:0402-TIGHT" V 605 750 50  0001 C CNN
-F 3 "~" H 675 750 50  0001 C CNN
-	1    675  750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 61743219
-P 1025 750
-F 0 "C3" H 1140 796 50  0000 L CNN
-F 1 "4.7u" H 1140 705 50  0000 L CNN
-F 2 "MicroMod_STM32:0402-TIGHT" H 1063 600 50  0001 C CNN
-F 3 "~" H 1025 750 50  0001 C CNN
-	1    1025 750 
-	1    0    0    -1  
-$EndComp
 Text Label 2325 1975 0    50   ~ 0
 BOOT0
 Text Label 2650 1775 2    50   ~ 0
@@ -594,6 +572,46 @@ Text Label 4150 6675 0    50   ~ 0
 VCC
 Wire Wire Line
 	4150 6675 4150 6825
+Text Label 6475 1975 2    50   ~ 0
+OTG_FS_D-
+Text Label 6475 1875 2    50   ~ 0
+OTG_FS_D+
+Text Label 6475 1775 2    50   ~ 0
+VCC
+$Comp
+L power:GND #PWR0109
+U 1 1 617812B4
+P 7475 1875
+F 0 "#PWR0109" H 7475 1625 50  0001 C CNN
+F 1 "GND" H 7480 1702 50  0000 C CNN
+F 2 "" H 7475 1875 50  0001 C CNN
+F 3 "" H 7475 1875 50  0001 C CNN
+	1    7475 1875
+	0    -1   -1   0   
+$EndComp
+Text Label 6475 2075 2    50   ~ 0
+OTG_FS_ID
+Text Label 6475 2175 2    50   ~ 0
+OTG_FS_VBUS
+Text Label 6475 2275 2    50   ~ 0
+IMU_SDA
+Text Label 6475 2375 2    50   ~ 0
+IMU_SCL
+$Comp
+L power:GND #PWR0110
+U 1 1 61799E07
+P 6475 3075
+F 0 "#PWR0110" H 6475 2825 50  0001 C CNN
+F 1 "GND" H 6480 2902 50  0000 C CNN
+F 2 "" H 6475 3075 50  0001 C CNN
+F 3 "" H 6475 3075 50  0001 C CNN
+	1    6475 3075
+	0    1    1    0   
+$EndComp
+Text Label 6475 5175 2    50   ~ 0
+VCC
+Text Label 7475 1775 0    50   ~ 0
+VCC
 $Comp
 L MicroMod_STM32:M.2 J1
 U 1 1 617AE552
@@ -605,4 +623,39 @@ F 3 "" H 6775 4475 50  0001 C CNN
 	1    6975 2975
 	1    0    0    -1  
 $EndComp
+Text Label 7475 1975 0    50   ~ 0
+NRF_TX
+Text Label 7475 2075 0    50   ~ 0
+NRF_RX
+Text Label 6475 2475 2    50   ~ 0
+SPI2_CLK
+Text Label 6475 2575 2    50   ~ 0
+SPI2_MISO
+Text Label 6475 2675 2    50   ~ 0
+SPI2_MOSI
+Text Label 6475 2775 2    50   ~ 0
+MOTOR2
+Text Label 6475 3175 2    50   ~ 0
+INT_GYR
+Text Label 7475 2175 0    50   ~ 0
+C8
+Text Label 7475 2275 0    50   ~ 0
+B12
+Text Label 6475 5075 2    50   ~ 0
+VBAT
+$Comp
+L power:GND #PWR0111
+U 1 1 61777529
+P 7475 5075
+F 0 "#PWR0111" H 7475 4825 50  0001 C CNN
+F 1 "GND" H 7480 4902 50  0000 C CNN
+F 2 "" H 7475 5075 50  0001 C CNN
+F 3 "" H 7475 5075 50  0001 C CNN
+	1    7475 5075
+	0    -1   -1   0   
+$EndComp
+Text Label 7475 4975 0    50   ~ 0
+MOTOR4
+Text Label 7475 4875 0    50   ~ 0
+NRST
 $EndSCHEMATC
