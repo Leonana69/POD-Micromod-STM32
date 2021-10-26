@@ -1,4 +1,4 @@
-update=10/23/2021 2:33:36 PM
+update=10/26/2021 12:07:02 PM
 version=1
 last_client=kicad
 [general]
@@ -36,6 +36,9 @@ ViaDrill1=0.25
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
+dPairWidth2=0.1524
+dPairGap2=0.3048
+dPairViaGap2=0
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1

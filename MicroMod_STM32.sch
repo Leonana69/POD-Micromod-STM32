@@ -143,10 +143,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 1350 2650 1275
 Connection ~ 2650 1275
-Text Label 2325 1975 0    50   ~ 0
-BOOT0
+Text Label 2325 1975 2    50   ~ 0
+STM_BOOT0
 Text Label 2650 1775 2    50   ~ 0
-NRST
+STM_NRST
 Wire Wire Line
 	4175 3675 4500 3675
 $Comp
@@ -255,13 +255,13 @@ INT_GYR
 Text Label 2775 4975 2    50   ~ 0
 C15
 Text Label 4175 4775 0    50   ~ 0
-SPI2_CLK
+SPI2_SCK
 Text Label 4175 4875 0    50   ~ 0
 SPI2_MISO
 Text Label 4175 4975 0    50   ~ 0
 SPI2_MOSI
 Text Label 4175 2275 0    50   ~ 0
-E_SPI_CLK
+E_SPI_SCK
 Text Label 4175 2375 0    50   ~ 0
 E_SPI_MISO
 Text Label 4175 2475 0    50   ~ 0
@@ -317,7 +317,7 @@ MOTOR2
 Text Label 4175 4675 0    50   ~ 0
 B12
 Text Label 3275 1575 1    50   ~ 0
-VBAT
+VCC_NRF
 Wire Wire Line
 	3375 1575 3475 1575
 Wire Wire Line
@@ -628,7 +628,7 @@ NRF_TX
 Text Label 7475 2075 0    50   ~ 0
 NRF_RX
 Text Label 6475 2475 2    50   ~ 0
-SPI2_CLK
+SPI2_SCK
 Text Label 6475 2575 2    50   ~ 0
 SPI2_MISO
 Text Label 6475 2675 2    50   ~ 0
@@ -642,7 +642,7 @@ C8
 Text Label 7475 2275 0    50   ~ 0
 B12
 Text Label 6475 5075 2    50   ~ 0
-VBAT
+VCC_NRF
 $Comp
 L power:GND #PWR0111
 U 1 1 61777529
@@ -657,9 +657,9 @@ $EndComp
 Text Label 7475 4975 0    50   ~ 0
 MOTOR4
 Text Label 6475 4775 2    50   ~ 0
-NRST
+STM_NRST
 Text Label 7475 4875 0    50   ~ 0
-BOOT0
+STM_BOOT0
 Text Label 7475 2975 0    50   ~ 0
 B4
 Text Label 7475 3075 0    50   ~ 0
@@ -667,7 +667,7 @@ E_SPI_MOSI
 Text Label 7475 3175 0    50   ~ 0
 E_SPI_MISO
 Text Label 7475 3275 0    50   ~ 0
-E_SPI_CLK
+E_SPI_SCK
 Text Label 7475 3375 0    50   ~ 0
 E_SCL
 Text Label 7475 3475 0    50   ~ 0
@@ -796,5 +796,5 @@ VCC
 Text Label 8975 4300 2    50   ~ 0
 STM_SWO
 Text Label 8975 4200 2    50   ~ 0
-NRST
+STM_NRST
 $EndSCHEMATC
