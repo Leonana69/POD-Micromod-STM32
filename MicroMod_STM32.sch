@@ -306,13 +306,13 @@ Text Label 4175 3975 0    50   ~ 0
 B5
 Text Label 4175 4175 0    50   ~ 0
 E_SDA
-Text Label 4175 4275 0    50   ~ 0
-B8
+Text Label 4175 4575 0    50   ~ 0
+B11
 Text Label 4175 4375 0    50   ~ 0
 B9
-Text Label 4175 4475 0    50   ~ 0
+Text Label 4175 4275 0    50   ~ 0
 MOTOR4
-Text Label 4175 4575 0    50   ~ 0
+Text Label 4175 4475 0    50   ~ 0
 MOTOR2
 Text Label 4175 4675 0    50   ~ 0
 B12
@@ -634,7 +634,7 @@ SPI2_MISO
 Text Label 6475 2675 2    50   ~ 0
 SPI2_MOSI
 Text Label 6475 2775 2    50   ~ 0
-MOTOR2
+B11
 Text Label 6475 3175 2    50   ~ 0
 INT_GYR
 Text Label 7475 2175 0    50   ~ 0
@@ -677,7 +677,7 @@ MOTOR3
 Text Label 7475 2375 0    50   ~ 0
 MOTOR1
 Text Label 6475 2875 2    50   ~ 0
-MOTOR4
+MOTOR2
 Text Label 7475 3575 0    50   ~ 0
 E_TX1
 Text Label 7475 3675 0    50   ~ 0
@@ -732,7 +732,7 @@ C12
 Text Label 6475 3875 2    50   ~ 0
 B5
 Text Label 6475 3975 2    50   ~ 0
-B8
+MOTOR4
 $Comp
 L power:GND #PWR0113
 U 1 1 61789A89

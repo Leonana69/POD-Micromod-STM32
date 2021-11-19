@@ -306,11 +306,11 @@ Text Label 4175 3975 0    50   ~ 0
 B5
 Text Label 4175 4175 0    50   ~ 0
 E_SDA
-Text Label 4175 4275 0    50   ~ 0
-B8
+Text Label 4175 4475 0    50   ~ 0
+B10
 Text Label 4175 4375 0    50   ~ 0
 B9
-Text Label 4175 4475 0    50   ~ 0
+Text Label 4175 4275 0    50   ~ 0
 MOTOR4
 Text Label 4175 4575 0    50   ~ 0
 MOTOR2
@@ -732,7 +732,7 @@ C12
 Text Label 6475 3875 2    50   ~ 0
 B5
 Text Label 6475 3975 2    50   ~ 0
-B8
+MOTOR4
 $Comp
 L power:GND #PWR0113
 U 1 1 61789A89
