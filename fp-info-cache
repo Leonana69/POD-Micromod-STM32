@@ -1,4 +1,4 @@
-19235697129290532
+19258596643373730
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56209,14 +56209,35 @@ Yellow 5381 Series LED
 0
 2
 2
-MicroMod_STM32
+MicroMod_Extension
+97730256330R
+
+
+0
+4
+1
+MicroMod_Extension
 0402-TIGHT
 
 
 0
 2
 2
-MicroMod_STM32
+MicroMod_Extension
+150066RG74000
+
+
+0
+4
+4
+MicroMod_Extension
+BATTARY
+
+
+0
+2
+2
+MicroMod_Extension
 CREATIVE_COMMONS
 <h3>Creative Commons License Template</h3>
 <p>CC BY-SA 4.0 License with <a href="https://creativecommons.org/licenses/by-sa/4.0/">link to license</a> and placeholder for designer name.</p>
@@ -56230,6 +56251,13 @@ CREATIVE_COMMONS
 0
 0
 0
+
+0
+4
+4
+0
+0
+0
 <p>Point-of-reference for pick-and-place machines and other optical instruments.</p>
 <p>Devices using:
 <ul><li>FIDUCIAL</li></ul></p>
@@ -56237,7 +56265,35 @@ CREATIVE_COMMONS
 0
 1
 1
-MicroMod_STM32
+MicroMod_Extension
+FIL_2450BM14E0003T
+
+
+0
+6
+6
+MicroMod_Extension
+FIL_ADFC15-2450.00-A-T
+
+
+0
+4
+4
+MicroMod_Extension
+JST_SUR_BM04B-SURS-TF_1x04-1MP_P0.80mm_Vertical
+JST SUR series connector, BM04B-SURS-TF (http://www.jst-mfg.com/product/pdf/eng/eSUR.pdf), generated with kicad-footprint-generator
+connector JST SUR side entry
+0
+6
+5
+MicroMod_Extension
+JST_SUR_BM08B-SURS-TF_1x08-1MP_P0.80mm_Vertical
+JST SUR series connector, BM08B-SURS-TF (http://www.jst-mfg.com/product/pdf/eng/eSUR.pdf), generated with kicad-footprint-generator
+connector JST SUR side entry
+0
+10
+9
+MicroMod_Extension
 LED-0603
 <B>LED 0603 SMT</B><p>
 0603, surface mount.
@@ -56252,35 +56308,42 @@ LED-0603
 0
 2
 2
-MicroMod_STM32
+MicroMod_Extension
 M.2-CARD-E-22
 
 0
 0
 70
 70
-MicroMod_STM32
+MicroMod_Extension
 MICROMOD_LOGO_.3
 
 0
 0
 0
 0
-MicroMod_STM32
+MicroMod_Extension
 MICROMOD_MI_LOGO_.35
 
 0
 0
 0
 0
-MicroMod_STM32
+MicroMod_Extension
 OSC_CSTNE8M00GH5L000R0
 
 0
 0
 3
 3
-MicroMod_STM32
+MicroMod_Extension
+PQFN45P200X200X100-10N
+
+0
+0
+10
+10
+MicroMod_Extension
 PRODUCTION_INSTRUCTIONS
 <h3>Special Production Instructions Alert</h3>
 0
@@ -56288,14 +56351,21 @@ PRODUCTION_INSTRUCTIONS
 0
 0
 0
-MicroMod_STM32
+MicroMod_Extension
+SAMTEC_RSP-122811-01
+0
+0
+0
+3
+3
+MicroMod_Extension
 SM06B
 0
 0
 0
 8
 8
-MicroMod_STM32
+MicroMod_Extension
 SOT23-3
 0
 0
@@ -56327,11 +56397,39 @@ SOT23-3
 69
 0
 0
+0
+
+0
+11
+11
+0
+0
 64
 
 0
 64
 64
+0
+0
+0
+
+0
+2
+2
+0
+0
+0
+
+0
+14
+14
+0
+0
+0
+
+0
+4
+4
 0
 0
 0

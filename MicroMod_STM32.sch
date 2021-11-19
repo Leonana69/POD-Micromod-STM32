@@ -309,9 +309,9 @@ E_SDA
 Text Label 4175 4275 0    50   ~ 0
 B8
 Text Label 4175 4375 0    50   ~ 0
-MOTOR4
+B9
 Text Label 4175 4475 0    50   ~ 0
-B10
+MOTOR4
 Text Label 4175 4575 0    50   ~ 0
 MOTOR2
 Text Label 4175 4675 0    50   ~ 0
@@ -655,7 +655,7 @@ F 3 "" H 7475 5075 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 7475 4975 0    50   ~ 0
-MOTOR4
+B9
 Text Label 6475 4775 2    50   ~ 0
 STM_NRST
 Text Label 7475 4875 0    50   ~ 0
@@ -677,7 +677,7 @@ MOTOR3
 Text Label 7475 2375 0    50   ~ 0
 MOTOR1
 Text Label 6475 2875 2    50   ~ 0
-B10
+MOTOR4
 Text Label 7475 3575 0    50   ~ 0
 E_TX1
 Text Label 7475 3675 0    50   ~ 0
